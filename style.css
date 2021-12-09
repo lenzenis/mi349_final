@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+    background-color: white;
+}
+#TG {
+    text-align: center;
+    width: 15%;
+    height: 15%;
+    border-top-left-radius: 50% 30% !important;
+    border-top-right-radius: 50% 30% !important;
+    border: 2px solid #aaa; 
+}
+#FL {
+    text-align: center;
+    width: 15%;
+    height: 15%;
+    border-top-left-radius: 50% 30% !important;
+    border-top-right-radius: 50% 30% !important;
+    border: 2px solid #aaa; 
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 10px;
+    padding: 20px;
+    color: #242424;
+    height: 58%;
+    background-color: #dacece;
+    background-repeat: repeat-y;
+    background-size: 58% auto;
+    border: 2px solid #c4b9b9;
+}
+
+.Resume {
+    display: flex;
+}
+
+.Resume > div {
+    flex: 1;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,.1) 0 10px 10px;
+    border: 2px solid #aaa;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+header {
+    text-align: center;
+    font-size: 20px;
+}
